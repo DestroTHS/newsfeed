@@ -66,4 +66,8 @@ public class PostService {
         }
         postRepository.deleteById(id);
     }
+
+    public Object getFollowedNewsfeed(User currentUser, int page) {
+        return null;
+    }
 }
